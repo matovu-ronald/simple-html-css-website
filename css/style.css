@@ -1,0 +1,114 @@
+body {
+    background-color: cadetblue;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+header {
+    clear: both;
+    padding: 10px 0;
+    background-color: #ccc;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: o;
+    margin: 0 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: azure;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+#main {
+    width: 100%;
+}
+
+#primary {
+    background-color: #9E9E9E;
+    padding: 5px;
+}
+
+#secondary {
+    background-color: #95A3B3;
+    padding: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 35px;
+    text-align: center;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 520px) {
+    #primary {
+        float: left;
+        width: 48%;
+    }
+    #secondary {
+        float: right;
+        width: 48%;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: red;
+    }
+    nav {
+        float: left;
+        width: 20%;
+        padding: 0;
+    }
+    nav li {
+        display: block;
+        padding: 10px 0;
+        width: 90%;
+    }
+    #main {
+        float: right;
+        width: 80%;
+    }
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        max-width: 1100px;
+    }
+}
